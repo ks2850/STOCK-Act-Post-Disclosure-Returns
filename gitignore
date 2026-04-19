@@ -1,0 +1,32 @@
+# Raw data (too large / license-restricted)
+00_raw_data/CRSP*.csv
+00_raw_data/capitol_trades.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# macOS
+.DS_Store
+
+# LaTeX build artifacts
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.bbl
+paper/*.blg
+paper/*.toc
+paper/*.lof
+paper/*.lot
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.synctex.gz
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
